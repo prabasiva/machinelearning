@@ -1,0 +1,15 @@
+[package]
+name = "linear_regression"
+version = "0.1.0"
+edition = "2021"
+authors = ["Praba Siva  <mail@prabasiva.com>"]
+description = "A simple linear regression implementation in Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/prabasiva/ml-rust"
+readme = "README.md"
+keywords = ["linear-regression", "machine-learning", "statistics", "math"]
+categories = ["algorithms", "mathematics", "science"]
+
+[[bin]]
+name = "linear-regression"
+path = "src/main.rs"
